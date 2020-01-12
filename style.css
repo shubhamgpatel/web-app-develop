@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+body{
+    margin:0 auto;
+    background: #f7f3f3;
+    font-family: 'Baskervville', serif;
+}
+.footer{
+    background-color: #b2e3d3;
+    padding: 7px 0 7px 0;
+    margin-top:10px;
+}
+.phone_error{
+    color:red;
+}
+.footer p{
+    text-align: center;
+    margin: 0 auto;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    /* float: right; */
+}
+.container-sign-up{
+    width:800px;
+    margin:0 auto;
+    border: 2px solid #ddd;
+    border-radius:4px;
+    background: #fff;
+}
+.row{
+    max-width: 100%;
+    margin: 0 0 0 25px;
+}
+.row h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+}
+.form-details{
+    margin-top:20px;
+}
+.form-details label{
+    padding-right:10px;
+    padding-top: 15px;
+}
+.form-details input{
+    width:30%;
+    padding-top:8px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+#email_error{
+    color:red;
+}
+.gender label{
+    margin-right: 18px;
+}
+.gender h3{
+    display: inline-block;
+}
+.marital-status h3{
+    display: inline-block;
+}
+.hobbies div{
+    margin-top:10px;
+}
+.marital-status select{
+    width:35%;
+}
+.marital-status option{
+    text-align: center;
+}
+textarea{
+    resize:none;
+}
+.asterisk{
+    color: red;
+}
+input[type=submit]{
+    padding: 7px 30px 7px 30px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+.heading h1{
+    background-color: #b2e3d3;
+    padding: 10px 0 10px 20px;
+}
